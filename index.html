@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DND MAP</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+
+    <script src="https://kit.fontawesome.com/3802fce4a1.js" crossorigin="anonymous"></script>
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <style>
+        #map { height: 1200px; }
+    </style>
+</head>
+<body>
+    <h1>Map</h1>
+
+        <input type="button" value="CLEAR ALL" id="clear">
+
+        <button class="btn" id="feather"><i class="fas fa-feather-alt"></i></button>
+        <button class="btn" id="skull"><i class="fas fa-skull"></i></button>
+
+        <div id="map">
+            <script src="scripts/map.js"></script>
+        </div>
+
+</body>
+</html>
